@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[9]:
-
-
 import copy
 import random
 
@@ -39,10 +34,6 @@ def PLA(data,rand = False,nu=1):
     return w,update
 
 
-
-# In[4]:
-
-
 def hw15():
 
     f = open('./hw1_15_train.dat.txt','r')
@@ -54,16 +45,6 @@ def hw15():
 
     print PLA(data)
     
-
-
-# In[5]:
-
-
-hw15()
-
-
-# In[6]:
-
 
 def hw16():
 
@@ -83,15 +64,6 @@ def hw16():
         updates.append(u)
 
     print 'Avg:',float(sum(updates))/len(updates)
-
-
-# In[30]:
-
-
-hw16()
-
-
-# In[10]:
 
 
 def hw17():
@@ -114,8 +86,4 @@ def hw17():
     print 'Avg:',float(sum(updates))/len(updates)
 
 
-# In[11]:
-
-
-hw17()
 
