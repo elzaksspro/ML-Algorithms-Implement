@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[25]:
-
-
 import copy
 import random
 def pocket(data,updatemax,nu =1):
@@ -59,8 +54,6 @@ def pocket(data,updatemax,nu =1):
     return w_best,update,
 
 
-# In[26]:
-
 
 def hw17():
 
@@ -81,14 +74,6 @@ def hw17():
 
     print 'Avg:',float(sum(updates))/len(updates)
 
-
-# In[27]:
-
-
-hw17()
-
-
-# In[11]:
 
 
 f = open('./hw1_15_train.dat.txt','r')
